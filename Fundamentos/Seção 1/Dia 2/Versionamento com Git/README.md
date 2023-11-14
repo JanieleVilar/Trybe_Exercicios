@@ -27,9 +27,3 @@
 <p>Envia as alterações da branch atual para o repositório remoto.</p>
 <h2>git push</h2>
 <p>Envia as alterações feitas na branch atual quando a mesma já está disponível no repositório remoto.</p>
-
-<style>
-  h1 {
-    color: green
-  }
-</style>
