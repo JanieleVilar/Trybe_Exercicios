@@ -8,6 +8,27 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  margin: 50px 50px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  margin-left: 60px;
+  margin-top: 40px;
+  font-size: xx-large;
+}
+
+p {
+  color:  white;
+  font-size: 18px;
+  margin: 20px 50px 30px;
+}
+
 header {
   text-align: center;
 }
@@ -15,7 +36,8 @@ header {
 ul {
   display: flex;
   justify-content: space-evenly;
-  margin: 150px;
+  margin: 100px;
+  max-height: 300px;
 }
 
 li img {
@@ -26,6 +48,37 @@ li img {
 }
 
 img:hover {
-  width: 260px;
+  width: 245px;
+  transition-duration: .5s;
+}
+
+section {
+  border-top: white solid 1px;
+  margin-bottom: 150px;
+}
+
+a[role=button] {
+  background-color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  transition-duration: .5s;
+}
+
+a[role=button]:hover {
+  background-color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px 30px;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 30px;
   transition-duration: .5s;
 }
